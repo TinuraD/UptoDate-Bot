@@ -21,7 +21,7 @@
         "description": "Get a SQL DB URI.",
         "value": ""
       },
-      "DATABASE_URI": {
+      "SUDO_ID": {
         "description": "SUDO IDs for the bot.",
         "value": ""
       }
