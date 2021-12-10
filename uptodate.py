@@ -103,7 +103,7 @@ Failed - {str(failed)}
 async def startmsg(message):
     await bot.send_message(message.chat.id, text="You have unsubscribed our news service, I will not send messages to you until you use me again.")
     if message.chat.type == "private":
-        remove_user(message.from_user.id, message.from_user.first_name)   
+        remove_user(message.from_user.id)   
 
 print("Uptodatelk Bot started.")
 executor.start_polling(dp)
