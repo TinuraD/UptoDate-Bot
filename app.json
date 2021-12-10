@@ -19,6 +19,11 @@
         "description": "SUDO IDs for the bot.",
         "required": true,  
         "value": ""
+      },
+      "CHANNEL_ID": {
+        "description": "Channel id for auto brodcast.",
+        "required": true,  
+        "value": ""
       }
      },
      "addons": [
