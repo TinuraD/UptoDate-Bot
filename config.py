@@ -25,7 +25,7 @@ SOFTWARE.
 from os import getenv
 
 BOT_TOKEN = getenv("BOT_TOKEN")
-SQL_DB = getenv("SQL_DB")
+SQL_DB = getenv("DATABASE_URL")
 SUDO_ID = getenv("SUDO_ID")
 CHANNEL_ID = getenv("CHANNEL_ID")
 SUDO = [int(x) for x in SUDO_ID.split()]
