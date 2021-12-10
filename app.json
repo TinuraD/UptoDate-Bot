@@ -10,8 +10,8 @@
         "required": true,
         "value": ""
       },
-      "SQL_DB": {
-        "description": "Get a SQL DB URI.",
+      "DATABASE_URL": {
+        "description": "If heroku, no need to fill this.",
         "required": false,
         "value": ""
       },
