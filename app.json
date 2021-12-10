@@ -7,14 +7,17 @@
     "env": {
       "BOT_TOKEN": {
         "description": "Get your Bot token from @Botfather",
+        "required": true,
         "value": ""
       },
       "SQL_DB": {
         "description": "Get a SQL DB URI.",
+        "required": false,
         "value": ""
       },
       "SUDO_ID": {
         "description": "SUDO IDs for the bot.",
+        "required": true,  
         "value": ""
       }
      },
