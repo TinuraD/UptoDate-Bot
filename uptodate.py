@@ -68,7 +68,7 @@ async def castmsgs(message):
     await message.reply(f"""
 Casting Finished ✅
 
-Methond - Manually by {message.from_user.mention}
+Method - Manually by {message.from_user.mention}
 Success - {str(success)}
 Failed - {str(failed)}
     """)     
